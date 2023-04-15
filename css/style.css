@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: chocolate;
+    padding: 25px;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+nav ul li{
+    list-style-type: none;
+    float: right;
+    padding: 0 15px; 
+    
+}
+
+.order{
+    background-color: chocolate;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+   
+
+}
+
+.order h1{
+    color: whitesmoke;
+    padding: 25px;
+    font-size: 30px;
+    font-family: lucida console, monaco, monospace;
+    font-weight: bold;  
+}
+
+.order button{
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    margin-left: 15px;
+    
+}
+.coffeecup img{
+    width: 100%;
+    border-radius: 500px ;
+    
+  
+  
+}
